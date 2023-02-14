@@ -1,2 +1,2 @@
 # LCL
-League Custom LCU
+롤 사설방 LCU
