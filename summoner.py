@@ -6,5 +6,5 @@ class Summoner:
         param = {
             "name": name
         }
-        summoners = await self.connection.request("get", "/lol-summoner/v1/summoners", params=param)
+        summoners = await (await self.connection.request("get", "/lol-summoner/v1/summoners", params=param)).json()
         return summoners
